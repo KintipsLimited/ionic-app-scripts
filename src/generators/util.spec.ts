@@ -256,7 +256,7 @@ describe('util', () => {
     it('should get a map of templates and their content back', () => {
       // arrange
       const templateDir =
-        '/Users/noone/project/node_modules/ionic-angular/templates/component';
+        '/Users/noone/project/node_modules/@kintips/ionic-angular/templates/component';
       const knownValues = [
         'html.tmpl',
         'scss.tmpl',
@@ -288,7 +288,7 @@ describe('util', () => {
     it('should preserve all templates', () => {
       const map = new Map<string, string>();
       const templateDir =
-        '/Users/noone/project/node_modules/ionic-angular/templates/component';
+        '/Users/noone/project/node_modules/@kintips/ionic-angular/templates/component';
       const fileContent = 'SomeContent';
       const knownValues = [
         'html.tmpl',
@@ -313,7 +313,7 @@ describe('util', () => {
     it('should remove spec', () => {
       const map = new Map<string, string>();
       const templateDir =
-        '/Users/noone/project/node_modules/ionic-angular/templates/component';
+        '/Users/noone/project/node_modules/@kintips/ionic-angular/templates/component';
       const fileContent = 'SomeContent';
       const knownValues = [
         'html.tmpl',
@@ -343,7 +343,7 @@ describe('util', () => {
     it('should remove spec and module', () => {
       const map = new Map<string, string>();
       const templateDir =
-        '/Users/noone/project/node_modules/ionic-angular/templates/component';
+        '/Users/noone/project/node_modules/@kintips/ionic-angular/templates/component';
       const fileContent = 'SomeContent';
       const knownValues = [
         'html.tmpl',
@@ -528,7 +528,7 @@ $TAB_CONTENT
     it('should return the list of files generated', () => {
       const map = new Map<string, string>();
       const templateDir =
-        '/Users/noone/project/node_modules/ionic-angular/templates/component';
+        '/Users/noone/project/node_modules/@kintips/ionic-angular/templates/component';
       const fileContent = 'SomeContent';
       const knownValues = [
         'html.tmpl',
